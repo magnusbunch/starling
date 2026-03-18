@@ -1,0 +1,72 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Starling Home & Garden</title>
+<meta name="description" content="Contact Starling Home & Garden to begin your interior, botanical, or lighting project consultation.">
+<meta property="og:title" content="Contact Starling">
+<meta property="og:description" content="Contact Starling Home & Garden to begin your interior, botanical, or lighting project consultation.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="./assets/logo/favicon.png">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles.css"><link rel="icon" type="image/png" href="./assets/logo/favicon.png"></head><body>
+<header class="nav"><div class="container"><a class="logo" href="./index.html" aria-label="Starling Home & Garden"><img src="./assets/logo/favicon.png" alt="Starling Home & Garden" class="logo-img"></a><nav class="menu"><a href="./index.html">Home</a><a href="./about.html">About</a><a href="./services.html">Services</a><a href="./portfolio.html">Portfolio</a><a class="active" href="./contact.html">Contact</a></nav></div></header>
+
+<section class="hero"><div class="hero-media"><img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=1800&auto=format&fit=crop&q=80" alt="contact"></div><div class="container reveal"><span class="kicker">Starling Home & Garden</span><h1>Let’s Build Your Space</h1><p>Share your vision, timeline, and style direction. We’ll propose the best next move within one business day.</p></div></section>
+
+<section class="section"><div class="container grid-2">
+<div class="card reveal"><h3>Studio & Appointments</h3><p>5725 Maxtown Rd, Westerville, OH 43082</p><p>Tue – Sat · 10am – 6pm EST</p><p>hello@starlinghomeandgarden.com</p><p>(614) 555-0182</p><div class="inline-photo"><img src="https://images.unsplash.com/photo-1600121848594-d8644e57abab?w=1000&auto=format&fit=crop&q=80" alt="showroom"></div></div>
+<form class="form card reveal" onsubmit="event.preventDefault();alert('Captured. Next step: connect to CRM/WhatsApp API.');">
+  <div class="field"><label>Full Name</label><input required></div>
+  <div class="field"><label>Email</label><input type="email" required></div>
+  <div class="field"><label>Phone</label><input></div>
+  <div class="field"><label>Project Type</label><select><option>Full Interior Design</option><option>Botanical Styling</option><option>Bespoke Lighting</option><option>Garden Design</option></select></div>
+  <div class="field"><label>Project Brief</label><textarea></textarea></div>
+  <button class="btn btn-primary" style="border:none;cursor:pointer">Send Message</button>
+</form>
+</div></section>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a class="logo footer-logo" href="./index.html" aria-label="Starling Home & Garden"><img src="./assets/logo/favicon.png" alt="Starling Home & Garden" class="logo-img"></a>
+      <p class="footer-text">Luxury interior, botanical, and lighting design studio creating timeless spaces with white-glove delivery.</p>
+    </div>
+
+    <div>
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./services.html">Services</a></li>
+        <li><a href="./portfolio.html">Portfolio</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h4>Visit</h4>
+      <ul>
+        <li>5725 Maxtown Rd</li>
+        <li>Westerville, OH 43082</li>
+        <li>Tue – Sat · 10am – 6pm</li>
+        <li><a href="tel:+16145550182">(614) 555-0182</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h4>Connect</h4>
+      <ul>
+        <li><a href="mailto:hello@starlinghomeandgarden.com">hello@starlinghomeandgarden.com</a></li>
+        <li><a href="https://instagram.com/starlinghomeandgarden" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="https://pinterest.com/starlinghomeandgarden" target="_blank" rel="noopener">Pinterest</a></li>
+        <li><a href="https://wa.me/16145550182" target="_blank" rel="noopener">WhatsApp</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© <span id="y"></span> Starling Home & Garden. All rights reserved.</span>
+    <span class="footer-mini-links"><a href="./privacy.html">Privacy</a> · <a href="./terms.html">Terms</a></span>
+  </div>
+</footer><script>document.getElementById('y').textContent=new Date().getFullYear();</script><script src="./script.js"></script>
+</body></html>
